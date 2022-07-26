@@ -47,6 +47,8 @@ micronaut {
         annotations("micronaut.*")
     }
 }
+graalvmNative.toolchainDetection.set(false)
+
 
 
 
